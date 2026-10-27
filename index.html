@@ -4,11 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Loragine Tayad — VA + AI/Automation Systems</title>
-  <meta name="description" content="Virtual Assistant and AI/automation systems for part-time and project clients. Inbox triage, monday.com CRM hygiene, follow-up engines, human-in-the-loop send cards." />
-  <meta name="theme-color" content="#0c0e12" />
+  <meta name="description" content="Virtual Assistant who builds inbox, monday.com CRM, and follow-up systems — draft-then-approve, so you keep the Send button." />
+  <meta name="theme-color" content="#0a0b0f" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
   <header class="topbar">
     <div class="wrap topbar-inner">
       <a class="brand" href="#top">Loragine <span>Tayad</span></a>
@@ -18,64 +21,124 @@
         <a href="#demo">Demo</a>
         <a href="#contact">Contact</a>
       </nav>
+      <a class="btn btn-sm btn-primary topbar-cta" href="#contact">Let’s talk</a>
     </div>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="wrap">
-        <p class="eyebrow">Virtual Assistant · AI &amp; Automation</p>
-        <h1>Systems that keep your pipeline moving — with you still holding the send button.</h1>
-        <p class="lede">
-          I’m Louie (Loragine Tayad). I build and run inbox, CRM, and follow-up systems for
-          part-time and project clients — so nothing leaves without your GO.
-        </p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="#contact">Work with me</a>
-          <a class="btn btn-ghost" href="#demo">See the sandbox demo</a>
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="pulse"></span> VA · AI &amp; Automation · Manila</p>
+          <h1>I build the systems so your inbox stops eating your evening.</h1>
+          <p class="lede">
+            I’m Louie (Loragine). Warm ops brain + sharp automation hands.
+            Inbox, monday.com CRM, follow-ups, EOD digests — wired so nothing
+            leaves without <em>your</em> GO.
+          </p>
+          <p class="punch">You keep the Send button. I keep the chaos.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#contact">Work with me</a>
+            <a class="btn btn-ghost" href="#demo">Peek the sandbox</a>
+          </div>
+          <p class="trust">
+            Draft-then-approve by default. I don’t send, sign, or move money
+            without an explicit OK. Remote · part-time &amp; project · Asia/Manila.
+          </p>
         </div>
-        <p class="trust">
-          Draft-then-approve by default. I never send, sign, or move money without your explicit OK.
-          Based in Manila (Asia/Manila) · available for remote clients.
-        </p>
+
+        <aside class="hero-board reveal" aria-label="Synthetic pipeline demo preview">
+          <div class="board-chrome">
+            <div class="dots"><span></span><span></span><span></span></div>
+            <span class="board-title">Client Pipeline Ops</span>
+            <span class="demo-pill">DEMO · synthetic</span>
+          </div>
+          <div class="kanban">
+            <div class="col">
+              <div class="col-h">Inbox <span>3</span></div>
+              <div class="card c-in anim-1">
+                <span class="tag-mini sales">Sales</span>
+                <strong>Acme North</strong>
+                <em>New inquiry · just landed</em>
+              </div>
+              <div class="card c-in anim-2">
+                <span class="tag-mini support">Support</span>
+                <strong>River Studio</strong>
+                <em>Reply draft ready</em>
+              </div>
+            </div>
+            <div class="col">
+              <div class="col-h">Qualified <span>2</span></div>
+              <div class="card c-q anim-3">
+                <span class="tag-mini sales">Sales</span>
+                <strong>Brightlane Ops</strong>
+                <em>Follow-up pinned Fri</em>
+              </div>
+              <div class="card c-q anim-4">
+                <span class="tag-mini ops">Ops</span>
+                <strong>Cedar &amp; Co.</strong>
+                <em>Waiting on GO</em>
+              </div>
+            </div>
+            <div class="col">
+              <div class="col-h">Proposal <span>1</span></div>
+              <div class="card c-p anim-5">
+                <span class="tag-mini sales">Sales</span>
+                <strong>Acme North</strong>
+                <em>Draft → you Send</em>
+                <div class="status-bar"><i></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="board-foot">
+            <span class="live-dot"></span> Fake clients only · Acme, River, Brightlane, Cedar
+          </div>
+        </aside>
       </div>
     </section>
 
     <section id="skills">
       <div class="wrap">
-        <p class="section-label">What I actually do</p>
-        <h2>Ops skills you can hire by the package</h2>
-        <p class="section-intro">
-          Warm, practical help — not “AI magic.” I set up the rails, then you approve what goes out.
+        <p class="section-label reveal">What I actually do</p>
+        <h2 class="reveal">Ops skills you can hire by the package — not by the panic.</h2>
+        <p class="section-intro reveal">
+          Practical rails. A little humor. Zero “synergy.” You approve what goes out; I make sure there’s something worth approving.
         </p>
         <div class="skills-grid">
-          <article class="skill">
+          <article class="skill reveal">
+            <span class="skill-ico" aria-hidden="true">📥</span>
             <strong>Multi-inbox triage</strong>
-            <p>Rules, labels, and routing so the right message hits the right stage — fast.</p>
+            <p>Rules, labels, routing — so the right message hits the right stage before it becomes a scavenger hunt.</p>
           </article>
-          <article class="skill">
+          <article class="skill reveal">
+            <span class="skill-ico" aria-hidden="true">📋</span>
             <strong>monday.com CRM hygiene</strong>
-            <p>Live-log standards, stage gates, and pinned next-follow-ups that stay current.</p>
+            <p>Live-log standards, stage gates, pinned next-follow-ups. Your board stays honest instead of decorative.</p>
           </article>
-          <article class="skill">
+          <article class="skill reveal">
+            <span class="skill-ico" aria-hidden="true">🔁</span>
             <strong>Follow-up batch engines</strong>
-            <p>Due items → draft pack → paced send after your GO → auto log back to the board.</p>
+            <p>Due items → draft pack → paced send after your GO → logged back. The boring part, done well.</p>
           </article>
-          <article class="skill">
+          <article class="skill reveal">
+            <span class="skill-ico" aria-hidden="true">✋</span>
             <strong>Human-in-the-loop send cards</strong>
-            <p>Drafts land for review. You press Send. No surprise outbound.</p>
+            <p>Drafts land for review. You press Send. No surprise outbound. Ever.</p>
           </article>
-          <article class="skill">
+          <article class="skill reveal">
+            <span class="skill-ico" aria-hidden="true">🌙</span>
             <strong>EOD digests &amp; KPI packs</strong>
-            <p>One clean end-of-day summary from board activity — numbers you supply, no fluff.</p>
+            <p>One clean end-of-day: what moved, what’s overdue, what’s waiting. Numbers you supply — no fluff theater.</p>
           </article>
-          <article class="skill">
+          <article class="skill reveal">
+            <span class="skill-ico" aria-hidden="true">🤖</span>
             <strong>WhatsApp / AI agent installs</strong>
-            <p>Receptionist or lead-qualify packages: install + handoff, not open-ended VA employment.</p>
+            <p>Receptionist or lead-qualify packages: install + handoff. Not an open-ended “figure it out later” VA gig.</p>
           </article>
-          <article class="skill">
+          <article class="skill reveal">
+            <span class="skill-ico" aria-hidden="true">📦</span>
             <strong>SOP &amp; kit productization</strong>
-            <p>Turn working processes into reusable checklists and Copy-Paste kits clients can buy.</p>
+            <p>Turn working processes into reusable checklists and Copy-Paste kits clients can actually buy.</p>
           </article>
         </div>
       </div>
@@ -83,41 +146,41 @@
 
     <section id="offers">
       <div class="wrap">
-        <p class="section-label">Offers</p>
-        <h2>Packages built for side clients</h2>
-        <p class="section-intro">
-          Fixed-scope setups and light retainers. Tell me which lane fits — we’ll scope it before any work starts.
+        <p class="section-label reveal">Offers</p>
+        <h2 class="reveal">Packages with a clear edge — and a kind handshake.</h2>
+        <p class="section-intro reveal">
+          Fixed-scope setups and light retainers. Pick a lane; we scope it before a single wire gets pulled.
         </p>
         <div class="offers-grid">
-          <article class="offer">
+          <article class="offer reveal">
             <span class="num">01</span>
             <h3>Inbox + draft system</h3>
-            <p>Triage rules, reply templates, and human-approve send cards so nothing leaves without you.</p>
+            <p>Triage rules, reply templates, human-approve send cards. Your inbox gets manners. You keep the veto.</p>
           </article>
-          <article class="offer">
+          <article class="offer reveal">
             <span class="num">02</span>
             <h3>Pipeline CRM hygiene</h3>
-            <p>monday.com (or similar) live-log standard, stage gates, and next-follow-up cadence.</p>
+            <p>monday.com (or similar) live-log standard, stage gates, next-follow-up cadence that doesn’t ghost you.</p>
           </article>
-          <article class="offer">
+          <article class="offer reveal">
             <span class="num">03</span>
             <h3>Follow-up batch engine</h3>
-            <p>Due items compiled into a draft pack, paced after GO, then logged back on the board.</p>
+            <p>Due items compiled into a draft pack, paced after GO, logged back on the board. Relentless — politely.</p>
           </article>
-          <article class="offer">
+          <article class="offer reveal">
             <span class="num">04</span>
             <h3>EOD / KPI pack builder</h3>
-            <p>One shift summary + tracker rows from board activity — clean numbers, no noise.</p>
+            <p>One shift summary + tracker rows from board activity. Clean numbers. No “vibes-based” reporting.</p>
           </article>
-          <article class="offer">
+          <article class="offer reveal">
             <span class="num">05</span>
             <h3>WhatsApp / AI agent install</h3>
-            <p>Receptionist or lead-qualify package: install, configure, handoff playbook.</p>
+            <p>Receptionist or lead-qualify: install, configure, handoff playbook. Then you’re not babysitting a bot.</p>
           </article>
-          <article class="offer">
+          <article class="offer reveal">
             <span class="num">06</span>
             <h3>Digital SOP kits</h3>
-            <p>Reusable templates and checklists productized from proven workflows — buy once, reuse.</p>
+            <p>Reusable templates and checklists productized from proven workflows — buy once, reuse without reinventing.</p>
           </article>
         </div>
       </div>
@@ -125,16 +188,37 @@
 
     <section id="demo">
       <div class="wrap">
-        <p class="section-label">Case study</p>
-        <h2>Client Pipeline Ops</h2>
-        <div class="case">
+        <p class="section-label reveal">Case study</p>
+        <h2 class="reveal">Client Pipeline Ops — the sandbox, not a flex reel.</h2>
+        <div class="case reveal">
           <span class="demo-banner">DEMO · synthetic data only</span>
           <h3>Inbox routing → EOD digest → proposal logging</h3>
           <p>
-            A fingerprint-free sandbox that shows how I wire a client pipeline: new inquiries land on a board,
-            get tagged and staged, an end-of-day digest compiles from board activity, and proposals move from
-            template draft → send (after GO) → status logged back. All sample names below are fictional.
+            A fingerprint-free walkthrough of how I wire a client pipeline: new inquiries land on a board,
+            get tagged and staged, an end-of-day digest compiles from board activity, and proposals move
+            from template draft → <strong>you</strong> send → status logged back. Sample names below are fictional on purpose.
           </p>
+
+          <div class="board-preview-lg" aria-hidden="true">
+            <div class="bp-col">
+              <header>Inbox</header>
+              <div class="bp-card"><b>Acme North</b><span>Sales · new</span></div>
+              <div class="bp-card"><b>River Studio</b><span>Support · draft</span></div>
+            </div>
+            <div class="bp-arrow">→</div>
+            <div class="bp-col">
+              <header>Qualified</header>
+              <div class="bp-card"><b>Brightlane</b><span>Follow-up Fri</span></div>
+              <div class="bp-card"><b>Cedar &amp; Co.</b><span>Waiting GO</span></div>
+            </div>
+            <div class="bp-arrow">→</div>
+            <div class="bp-col accent">
+              <header>Proposal</header>
+              <div class="bp-card glow"><b>Acme North</b><span>Draft → Send</span></div>
+              <div class="bp-note">Status logs after you press Send</div>
+            </div>
+          </div>
+
           <div class="flow">
             <div class="flow-step">
               <div class="step-n">Step 1</div>
@@ -144,7 +228,7 @@
             <div class="flow-step">
               <div class="step-n">Step 2</div>
               <strong>EOD summary</strong>
-              <p>End-of-day digest auto-compiled from board moves, drafts, and follow-ups due.</p>
+              <p>End-of-day digest from board moves, drafts, and follow-ups due — blockers first.</p>
             </div>
             <div class="flow-step">
               <div class="step-n">Step 3</div>
@@ -152,6 +236,7 @@
               <p>Draft from template → principal sends → status written back on the item.</p>
             </div>
           </div>
+
           <div class="samples">
             <h4>Synthetic sample clients (not real)</h4>
             <div class="sample-tags">
@@ -161,7 +246,8 @@
               <span class="tag">Cedar &amp; Co. Advisors</span>
             </div>
           </div>
-          <div class="cta-row" style="margin-top: 1.35rem;">
+
+          <div class="cta-row" style="margin-top: 1.5rem;">
             <a class="btn btn-primary" href="https://cursor.com/canvas/store-31d9d9e1-8314-42cf-82dd-12904facf431/64502b14-8eba-4859-a90d-d63d875d2059" target="_blank" rel="noopener noreferrer">Open sandbox Page</a>
             <a class="btn btn-ghost" href="#contact">Ask about a setup</a>
           </div>
@@ -171,19 +257,19 @@
 
     <section id="contact">
       <div class="wrap">
-        <p class="section-label">Contact</p>
-        <h2>Ready when you are</h2>
-        <div class="contact-card">
+        <p class="section-label reveal">Contact</p>
+        <h2 class="reveal">Ready when you are — no pitch deck required.</h2>
+        <div class="contact-card reveal">
           <div>
             <h3>Let’s scope one package</h3>
             <p>
-              Message me on LinkedIn or email the hustle inbox. Tell me which offer you’re eyeing and
-              what tools you already use — I’ll reply with a clear next step.
+              Hit me on LinkedIn or email the hustle inbox. Tell me which offer you’re eyeing and
+              what tools you already use — I’ll reply with a clear next step, not a 12-slide waffle.
             </p>
           </div>
           <div class="contact-links">
-            <a href="https://www.linkedin.com/in/loragine/" target="_blank" rel="noopener noreferrer">LinkedIn → loragine</a>
-            <a href="mailto:freelanceloes@gmail.com">freelanceloes@gmail.com</a>
+            <a class="btn btn-primary" href="https://www.linkedin.com/in/loragine/" target="_blank" rel="noopener noreferrer">LinkedIn → loragine</a>
+            <a class="btn btn-ghost" href="mailto:freelanceloes@gmail.com">freelanceloes@gmail.com</a>
           </div>
         </div>
       </div>
@@ -192,13 +278,32 @@
 
   <footer>
     <div class="wrap">
-      <p class="promise">Draft-then-approve. Never send, sign, or move money without your GO.</p>
+      <p class="promise">Draft-then-approve. You keep Send. I keep the chaos.</p>
       <div class="meta">
         <span>Loragine Tayad · Louie</span>
         <span>Manila · Asia/Manila (UTC+8)</span>
-        <span>Remote · part-time &amp; project clients</span>
+        <span>Remote · part-time &amp; project</span>
       </div>
     </div>
   </footer>
+
+  <script>
+    (function () {
+      var nodes = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) {
+        nodes.forEach(function (n) { n.classList.add('in'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('in');
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      nodes.forEach(function (n) { io.observe(n); });
+    })();
+  </script>
 </body>
 </html>
