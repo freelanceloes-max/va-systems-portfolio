@@ -233,9 +233,10 @@ a:hover {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: clamp(2rem, 5vw, 2.85rem);
-  line-height: 1.12;
+  line-height: 1.15;
   letter-spacing: -0.02em;
   margin-bottom: 1.25rem;
+  max-width: 20em;
 }
 
 .lede {
